@@ -116,3 +116,5 @@ server.on("listening", () => {
 })
 
 server.listen({ port: PORT })
+
+alert("it is recomended to turn off ads!")
