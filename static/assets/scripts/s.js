@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var storedAd = localStorage.getItem("ad")
     if (storedAd === "on") {
-      adTypeElement.value = "default"
+      adTypeElement.value = "off"
     } else if (storedAd === "popups") {
-      adTypeElement.value = "popups"
+      adTypeElement.value = "off"
     } else if (storedAd === "off") {
       adTypeElement.value = "off"
     } else {
