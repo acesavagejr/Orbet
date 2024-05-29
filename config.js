@@ -3,6 +3,7 @@ const config = {
   users: { // You can add multiple users by doing username: 'password'. 
     entity: 'aidenaiden8',
     orbet: 'ae45',
+    K1654: 'Ef5'
   },
   routes: true, // Change this to false if you just want to host a bare server.
   local: true, // Change this to false to disable local assets.
