@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
   let ad = localStorage.getItem("ad")
   if (ad === null || ad === "default" || ad === "true") {
     localStorage.setItem("ad", "on")
-    ad = "on"
+    ad = "off"
   } else if (ad === "popups") {
-    ad = "popups"
+    ad = "off"
   } else if (ad === "off" || ad === "no") {
     ad = "off"
   }
-
+  
   let div = document.getElementById("adv")
   if (div) {
     if (ad === "on") {
